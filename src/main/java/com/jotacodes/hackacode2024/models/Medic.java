@@ -6,10 +6,10 @@ public class Medic extends Person{
 
     private String medicSpecialist;
     private String freeShift; // turno
-    private Long salary;
+    private Double salary;
 
     public Medic(String name, String lastname, String dni, Date birthDate,
-     String email, String tlf, String direction, String specialist, String shift, Long salar) {
+     String email, String tlf, String direction, String specialist, String shift, Double salar) {
         super(name, lastname, dni, birthDate, email, tlf, direction);
         medicSpecialist = specialist;
         freeShift = shift;
